@@ -112,11 +112,11 @@ typedef struct builtin
 
 /**
  * every file prototype collected under comment
- * with it's file name 
+ * with it's file name
 */
 
 /* sh_loop.c */
-int hsh(info_t *, char **);
+int hshell(info_t *, char **);
 int find_builtin(info_t *);
 void find_cmd(info_t *);
 void fork_cmd(info_t *);
